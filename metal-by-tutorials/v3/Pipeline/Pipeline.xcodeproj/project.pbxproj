@@ -11,6 +11,10 @@
 		F9CB17562FF1B2370060C3DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CB17552FF1B2370060C3DC /* ContentView.swift */; };
 		F9CB17582FF1B23C0060C3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CB17572FF1B23C0060C3DC /* Assets.xcassets */; };
 		F9CB175C2FF1B23C0060C3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CB175B2FF1B23C0060C3DC /* Preview Assets.xcassets */; };
+		F9CB17632FF1B5C10060C3DC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CB17622FF1B5C10060C3DC /* MetalView.swift */; };
+		F9CB17652FF1D8940060C3DC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CB17642FF1D8940060C3DC /* Renderer.swift */; };
+		F9DE16072FF2F4BD00B30D58 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F9DE16062FF2F4BD00B30D58 /* Shaders.metal */; };
+		F9DE16092FF30CAE00B30D58 /* train.usd in Resources */ = {isa = PBXBuildFile; fileRef = F9DE16082FF30CAE00B30D58 /* train.usd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		F9CB17572FF1B23C0060C3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9CB17592FF1B23C0060C3DC /* Pipeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pipeline.entitlements; sourceTree = "<group>"; };
 		F9CB175B2FF1B23C0060C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9CB17622FF1B5C10060C3DC /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		F9CB17642FF1D8940060C3DC /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		F9DE16062FF2F4BD00B30D58 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		F9DE16082FF30CAE00B30D58 /* train.usd */ = {isa = PBXFileReference; lastKnownFileType = file; path = train.usd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,15 @@
 		F9CB17522FF1B2370060C3DC /* Pipeline */ = {
 			isa = PBXGroup;
 			children = (
+				F9DE16082FF30CAE00B30D58 /* train.usd */,
 				F9CB17532FF1B2370060C3DC /* PipelineApp.swift */,
 				F9CB17552FF1B2370060C3DC /* ContentView.swift */,
+				F9CB17622FF1B5C10060C3DC /* MetalView.swift */,
 				F9CB17572FF1B23C0060C3DC /* Assets.xcassets */,
 				F9CB17592FF1B23C0060C3DC /* Pipeline.entitlements */,
 				F9CB175A2FF1B23C0060C3DC /* Preview Content */,
+				F9CB17642FF1D8940060C3DC /* Renderer.swift */,
+				F9DE16062FF2F4BD00B30D58 /* Shaders.metal */,
 			);
 			path = Pipeline;
 			sourceTree = "<group>";
@@ -129,6 +141,7 @@
 			files = (
 				F9CB175C2FF1B23C0060C3DC /* Preview Assets.xcassets in Resources */,
 				F9CB17582FF1B23C0060C3DC /* Assets.xcassets in Resources */,
+				F9DE16092FF30CAE00B30D58 /* train.usd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CB17652FF1D8940060C3DC /* Renderer.swift in Sources */,
+				F9CB17632FF1B5C10060C3DC /* MetalView.swift in Sources */,
 				F9CB17562FF1B2370060C3DC /* ContentView.swift in Sources */,
 				F9CB17542FF1B2370060C3DC /* PipelineApp.swift in Sources */,
+				F9DE16072FF2F4BD00B30D58 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

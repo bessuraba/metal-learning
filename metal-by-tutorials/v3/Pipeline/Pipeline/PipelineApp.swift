@@ -2,7 +2,7 @@
 //  PipelineApp.swift
 //  Pipeline
 //
-//  Created by Слава Лосев on 28.6.26..
+//  Created by Slava Varda on 28.6.26..
 //
 
 import SwiftUI

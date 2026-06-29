@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Pipeline
 //
-//  Created by Слава Лосев on 28.6.26..
+//  Created by Slava Varda on 28.6.26..
 //
 
 import SwiftUI
@@ -10,10 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            MetalView().border(Color.black, width: 2)
+            Text("Hello, Metal!")
         }
         .padding()
     }

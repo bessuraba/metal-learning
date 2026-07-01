@@ -26,6 +26,10 @@ Blender 2.8+ tutorials are easy to follow in Blender 2.9+; the 2.79 section belo
 - [Karen Shah tutorials](https://tutsplus.com/authors/karan-shah)
 - [Blender Character Creation by Sebastian Lague](https://www.youtube.com/playlist?list=PLFt_AvWsXl0fEx02iXR8uhDsVGhmM9Pse)
 
+## Swift & Memory
+
+- [Size, Stride, and Alignment in Swift](http://swiftunboxed.com/internals/size-stride-alignment/) — explains how Swift structs are laid out in memory; essential for correctly sizing and padding data passed to Metal GPU buffers.
+
 ## Credits
 
 - [A trip through the Graphics Pipeline](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
@@ -33,6 +37,7 @@ Blender 2.8+ tutorials are easy to follow in Blender 2.9+; the 2.79 section belo
 
 ## Further reading
 
+- [Metal Shading Language Specification](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf) (PDF) — official language reference for MSL.
 - [Apple - Understanding GPU Family 4](https://developer.apple.com/documentation/metal/gpu_features/understanding_gpu_family_4)
 - [Render Hell 2.0](http://simonschreibt.de/gat/renderhell/)
 - [Reverse Engineering Apple G13 Architecture](https://dougallj.github.io/applegpu/docs.html)
